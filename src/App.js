@@ -1,15 +1,10 @@
-import React from "react";
-import "./App.css";
-import Layout from "./hoc/Layout/Layout";
+import React from 'react';
+import LayoutContainer from './hoc/Layout/LayoutContainer';
 
-class App extends React.Component {
-  render() {
-    return (
-      <div className="App">
-        <Layout />
-      </div>
-    );
-  }
-}
+const App = () => (
+  <div className='App'>
+    <LayoutContainer />
+  </div>
+)
 
 export default App;
